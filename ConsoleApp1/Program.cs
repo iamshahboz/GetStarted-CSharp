@@ -29,5 +29,13 @@ internal static class Program
         checker.Check();
 
         #endregion
+        
+        #region Money
+
+        var paid = new Accountant();
+        paid.MoneyPaid();
+
+        #endregion
+
     }
 }
