@@ -32,6 +32,16 @@ internal static class Program
         Console.WriteLine("Division result: " + calculator.Divide(20,4));
 
         #endregion
+        
+        #region
+
+        Person person = new Person("John", 22);
+        
+        person.Introduce();
+
+        person.Adult();
+
+        #endregion
 
     }
 }
