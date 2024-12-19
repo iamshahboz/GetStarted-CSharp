@@ -9,33 +9,31 @@ internal static class Program
         Console.WriteLine($"The value of the number is:{number}");
         Console.WriteLine($"The type of the number is:{s.GetType()}");
 
-        var digit = 2;
-        var count = 10;
-        var totalPrice = 20.95f;
-        var firstName = "Tommy";
-        var isWorking = false;
+        //var digit = 2;
+        //var count = 10;
+        //var totalPrice = 20.95f;
+        //var firstName = "Tommy";
+        //var isWorking = false;
 
-        Console.WriteLine(digit);
-        Console.WriteLine(count);
-        Console.WriteLine(totalPrice);
-        Console.WriteLine(firstName);
-        Console.WriteLine(isWorking);
-        
+        //Console.WriteLine(digit);
+        //Console.WriteLine(count);
+        //Console.WriteLine(totalPrice);
+        //Console.WriteLine(firstName);
+        //Console.WriteLine(isWorking);
 
 
-        #region Checking
 
-        var checker = new Checker();
-        checker.Check();
+        #region Calculator
 
-        #endregion
-        
-        #region Money
-
-        var paid = new Accountant();
-        paid.MoneyPaid();
+        var calculator = new Calculator();
+        Console.WriteLine("Addition result: " + calculator.Add(12,8));
+        Console.WriteLine("Subtract result: " + calculator.Subtract(12,8));
+        Console.WriteLine("Multiply result: " + calculator.Multiply(5, 7));
+        Console.WriteLine("Division result: " + calculator.Divide(20,4));
 
         #endregion
 
     }
 }
+
+
