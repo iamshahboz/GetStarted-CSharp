@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{287891A2-330F-4396-B3C7-DC6C5615F4F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "GUI\GUI.csproj", "{25870EA5-0B4E-4437-A946-4F88F1F5C117}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{287891A2-330F-4396-B3C7-DC6C5615F4F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287891A2-330F-4396-B3C7-DC6C5615F4F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287891A2-330F-4396-B3C7-DC6C5615F4F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287891A2-330F-4396-B3C7-DC6C5615F4F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25870EA5-0B4E-4437-A946-4F88F1F5C117}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25870EA5-0B4E-4437-A946-4F88F1F5C117}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25870EA5-0B4E-4437-A946-4F88F1F5C117}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25870EA5-0B4E-4437-A946-4F88F1F5C117}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

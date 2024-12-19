@@ -1,0 +1,17 @@
+﻿<Window x:Class="GUI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="450">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+            <TextBlock FontFamily="Global User Interface" FontSize="20" Text="Enter your name:" Margin="0,0,0,10"/>
+            <TextBox Name="NameInput" FontSize="16" Margin="0,0,0,10"/>
+            <Button Content="Submit" FontSize="16" Click="OnSubmitClick" Margin="0,0,0,10"/>
+            <TextBlock Name="GreetingText" FontFamily="Global User Interface" FontSize="20" Foreground="Blue"/>
+        </StackPanel>
+    </Grid>
+</Window>
