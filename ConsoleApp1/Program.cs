@@ -43,6 +43,13 @@ internal static class Program
 
         #endregion
 
+        #region IsReady
+
+        var ready = new IsReady();
+        ready.Root();
+
+        #endregion
+
     }
 }
 
