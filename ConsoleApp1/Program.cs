@@ -56,6 +56,16 @@ internal static class Program
         days.DaysOfTheWeek(3);
 
         #endregion
+        
+        //iteration
+
+        #region Iteration
+
+        var iterator = new DoIteration();
+        iterator.DoIt();
+
+
+        #endregion
 
     }
 }
