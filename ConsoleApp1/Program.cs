@@ -50,6 +50,13 @@ internal static class Program
 
         #endregion
 
+        #region DaysOfWeek
+
+        var days = new DayOfWeek();
+        days.DaysOfTheWeek(3);
+
+        #endregion
+
     }
 }
 
